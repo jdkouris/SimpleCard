@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SE96QQ4Q6G;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SE96QQ4Q6G;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 252BEA0DADA1E757C26BCD48 /* Pods-SimpleCard_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SE96QQ4Q6G;
 				INFOPLIST_FILE = SimpleCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = EAF6EC4EAFD558E5FEE96C59 /* Pods-SimpleCard_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SE96QQ4Q6G;
 				INFOPLIST_FILE = SimpleCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8BE570CBB9569E8CFEB3DA3 /* Pods-SimpleCard_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SE96QQ4Q6G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D44F3002F810DF5F5A3EDCAD /* Pods-SimpleCard_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SE96QQ4Q6G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
