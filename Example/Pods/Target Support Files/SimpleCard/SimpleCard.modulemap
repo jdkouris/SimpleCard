@@ -1,0 +1,6 @@
+framework module SimpleCard {
+  umbrella header "SimpleCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

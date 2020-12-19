@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C085CC3711DB710A2D59BF8EBD8958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		00F5C2D590A396E59C5A60F3C3F115F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5BE07C4DD75CD417C2070B1216E45B87 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFFC125CEAEED9E3D7FC25D0A4629D9 /* ReplaceMe.swift */; };
+		88C78CD14B8188F3A6F387F6961603C2 /* SimpleCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 663ACD5C116784643B744B3146015516 /* SimpleCard-dummy.m */; };
+		96DAA9BC396F0E9CC0B8B103E0776DCE /* Pods-SimpleCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA52F29A8D6828FD31F31EA0C7F4F115 /* Pods-SimpleCard_Example-dummy.m */; };
+		9DCFA7CA87FF53E2AF281C588C0A4F4D /* SimpleCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88BA4513D02C0C6925C3E4CA60DAE21 /* SimpleCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A658F54C1DFEC32B2F9603F553522EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DB31BB944994ECE720B359FD0ED56F80 /* Pods-SimpleCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DC4A3D9979AB6AB715428F26EAF6B1 /* Pods-SimpleCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0553AD7EBC7BA9B130376507DACDD31 /* Pods-SimpleCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC4A869D04BCA1F5C1F753FF78B7279 /* Pods-SimpleCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7157DFFC9C90FC6A93AA58F86543A6 /* Pods-SimpleCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27687B7631FD6200AC8BC222F7AB2E75 /* Pods-SimpleCard_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03BDF138EE1304CCC5A20B3132012364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769A4CC36D0412B69D2ED9656F952AE6;
+			remoteInfo = SimpleCard;
+		};
+		8AE3294F553CEB8DD5FA65483C32BD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15ED9736CEA4013D4A884671881AB476;
+			remoteInfo = "Pods-SimpleCard_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06AE2A46F7B33942BB755DEC779629CA /* SimpleCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleCard-Info.plist"; sourceTree = "<group>"; };
+		06E80C1E55AEDFB6F20316D5D6C29ADD /* SimpleCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimpleCard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		10DC4A3D9979AB6AB715428F26EAF6B1 /* Pods-SimpleCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleCard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1340A834848CF6B76A798C9CC9EAEABF /* Pods-SimpleCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17C1972118D23DE3D3878BD6BD84932F /* Pods-SimpleCard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCard_Example-Info.plist"; sourceTree = "<group>"; };
+		27687B7631FD6200AC8BC222F7AB2E75 /* Pods-SimpleCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCard_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3790228DAA51547B54634C3AB3344D2B /* Pods_SimpleCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCard_Tests.framework; path = "Pods-SimpleCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561EDF58AD1CBC8E0416CBFF95AABF15 /* SimpleCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCard.xcconfig; sourceTree = "<group>"; };
+		576B8805CB1CCACF304D0F0C66F94304 /* Pods-SimpleCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleCard_Tests.modulemap"; sourceTree = "<group>"; };
+		5EFFC125CEAEED9E3D7FC25D0A4629D9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleCard/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		663ACD5C116784643B744B3146015516 /* SimpleCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleCard-dummy.m"; sourceTree = "<group>"; };
+		6792C73F7E26677919B704F7A23BFAC7 /* Pods-SimpleCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6808E2A5283C73D094E1CE67C6AB6A39 /* Pods-SimpleCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AB3CEFBB9CE634B4AC7E770AD609FB7 /* SimpleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleCard.framework; path = SimpleCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDC896CD6E3D21B837BE4C61EC3BF31 /* Pods-SimpleCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2674974FF33BCC79CD2016AA526C8A /* Pods-SimpleCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AAF6DF962B7DA058005EB4F2917139 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A250C7045CA21686746E21A67AB42884 /* Pods-SimpleCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A69283E799DA7F43DF7C6C923D4C3526 /* Pods-SimpleCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleCard_Example.modulemap"; sourceTree = "<group>"; };
+		A9288F07A64CE9E027CE9B1A83148598 /* Pods-SimpleCard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCard_Tests-Info.plist"; sourceTree = "<group>"; };
+		AEC4A869D04BCA1F5C1F753FF78B7279 /* Pods-SimpleCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleCard_Example-umbrella.h"; sourceTree = "<group>"; };
+		B20AB788202424F515DEF9738E95B477 /* Pods-SimpleCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B48CA1E0F0A4C99969D4C2EC94659106 /* SimpleCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCard-prefix.pch"; sourceTree = "<group>"; };
+		BA52F29A8D6828FD31F31EA0C7F4F115 /* Pods-SimpleCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCard_Example-dummy.m"; sourceTree = "<group>"; };
+		BF14B396FAA712F9B8502AED01B32680 /* Pods-SimpleCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C88BA4513D02C0C6925C3E4CA60DAE21 /* SimpleCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCard-umbrella.h"; sourceTree = "<group>"; };
+		CBC3398CC8B72E649CC948E4781B85A1 /* Pods-SimpleCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D6F9AF664ECBA8ECDCAEF816266CEC21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E8666CF376E5D216699CA3B7A758F7A9 /* Pods_SimpleCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCard_Example.framework; path = "Pods-SimpleCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB41B939FAA9254379ED20D402E711DF /* SimpleCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleCard.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F936EA086CC8D3D768591093CF1D5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F5C2D590A396E59C5A60F3C3F115F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2DAB42134511367E8CFA9DEF4722E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A658F54C1DFEC32B2F9603F553522EB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C625DF4ABA9EFB9AEBEB9652445E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C085CC3711DB710A2D59BF8EBD8958 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A088DB8910DFB1ECA1BCA593A0678E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C23C3D733D1D4D875264D218BF089C /* Pods-SimpleCard_Example */,
+				9F504A398A642BB98A981C3C8CBBCBF6 /* Pods-SimpleCard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F57F751D7C66884C956AFA0CA602B0D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2C62001F297CE898525928B212779A2 /* SimpleCard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6DFB53EF356E26CBB8E483E4E0FEEF87 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6F9AF664ECBA8ECDCAEF816266CEC21 /* LICENSE */,
+				A1AAF6DF962B7DA058005EB4F2917139 /* README.md */,
+				06E80C1E55AEDFB6F20316D5D6C29ADD /* SimpleCard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7756557107845225B510D6EB6B8FCBDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB41B939FAA9254379ED20D402E711DF /* SimpleCard.modulemap */,
+				561EDF58AD1CBC8E0416CBFF95AABF15 /* SimpleCard.xcconfig */,
+				663ACD5C116784643B744B3146015516 /* SimpleCard-dummy.m */,
+				06AE2A46F7B33942BB755DEC779629CA /* SimpleCard-Info.plist */,
+				B48CA1E0F0A4C99969D4C2EC94659106 /* SimpleCard-prefix.pch */,
+				C88BA4513D02C0C6925C3E4CA60DAE21 /* SimpleCard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleCard";
+			sourceTree = "<group>";
+		};
+		9F504A398A642BB98A981C3C8CBBCBF6 /* Pods-SimpleCard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				576B8805CB1CCACF304D0F0C66F94304 /* Pods-SimpleCard_Tests.modulemap */,
+				B20AB788202424F515DEF9738E95B477 /* Pods-SimpleCard_Tests-acknowledgements.markdown */,
+				6808E2A5283C73D094E1CE67C6AB6A39 /* Pods-SimpleCard_Tests-acknowledgements.plist */,
+				27687B7631FD6200AC8BC222F7AB2E75 /* Pods-SimpleCard_Tests-dummy.m */,
+				A9288F07A64CE9E027CE9B1A83148598 /* Pods-SimpleCard_Tests-Info.plist */,
+				10DC4A3D9979AB6AB715428F26EAF6B1 /* Pods-SimpleCard_Tests-umbrella.h */,
+				6BDC896CD6E3D21B837BE4C61EC3BF31 /* Pods-SimpleCard_Tests.debug.xcconfig */,
+				9D2674974FF33BCC79CD2016AA526C8A /* Pods-SimpleCard_Tests.release.xcconfig */,
+			);
+			name = "Pods-SimpleCard_Tests";
+			path = "Target Support Files/Pods-SimpleCard_Tests";
+			sourceTree = "<group>";
+		};
+		A2C62001F297CE898525928B212779A2 /* SimpleCard */ = {
+			isa = PBXGroup;
+			children = (
+				5EFFC125CEAEED9E3D7FC25D0A4629D9 /* ReplaceMe.swift */,
+				6DFB53EF356E26CBB8E483E4E0FEEF87 /* Pod */,
+				7756557107845225B510D6EB6B8FCBDF /* Support Files */,
+			);
+			name = SimpleCard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A8C23C3D733D1D4D875264D218BF089C /* Pods-SimpleCard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A69283E799DA7F43DF7C6C923D4C3526 /* Pods-SimpleCard_Example.modulemap */,
+				1340A834848CF6B76A798C9CC9EAEABF /* Pods-SimpleCard_Example-acknowledgements.markdown */,
+				A250C7045CA21686746E21A67AB42884 /* Pods-SimpleCard_Example-acknowledgements.plist */,
+				BA52F29A8D6828FD31F31EA0C7F4F115 /* Pods-SimpleCard_Example-dummy.m */,
+				CBC3398CC8B72E649CC948E4781B85A1 /* Pods-SimpleCard_Example-frameworks.sh */,
+				17C1972118D23DE3D3878BD6BD84932F /* Pods-SimpleCard_Example-Info.plist */,
+				AEC4A869D04BCA1F5C1F753FF78B7279 /* Pods-SimpleCard_Example-umbrella.h */,
+				BF14B396FAA712F9B8502AED01B32680 /* Pods-SimpleCard_Example.debug.xcconfig */,
+				6792C73F7E26677919B704F7A23BFAC7 /* Pods-SimpleCard_Example.release.xcconfig */,
+			);
+			name = "Pods-SimpleCard_Example";
+			path = "Target Support Files/Pods-SimpleCard_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5F57F751D7C66884C956AFA0CA602B0D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FF57DAAF02D35C9EEE3D0C1C774600A9 /* Products */,
+				17A088DB8910DFB1ECA1BCA593A0678E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF57DAAF02D35C9EEE3D0C1C774600A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8666CF376E5D216699CA3B7A758F7A9 /* Pods_SimpleCard_Example.framework */,
+				3790228DAA51547B54634C3AB3344D2B /* Pods_SimpleCard_Tests.framework */,
+				6AB3CEFBB9CE634B4AC7E770AD609FB7 /* SimpleCard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16B46AE41F39CD74FFBF34BE56222B15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0553AD7EBC7BA9B130376507DACDD31 /* Pods-SimpleCard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6E3043B026D22DBE75631E016FB6EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCFA7CA87FF53E2AF281C588C0A4F4D /* SimpleCard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA737A850D757406F1DC9D40DB8B45B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB31BB944994ECE720B359FD0ED56F80 /* Pods-SimpleCard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15ED9736CEA4013D4A884671881AB476 /* Pods-SimpleCard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A001AC05E2DF5F7C552E99EC2D41EF1 /* Build configuration list for PBXNativeTarget "Pods-SimpleCard_Example" */;
+			buildPhases = (
+				16B46AE41F39CD74FFBF34BE56222B15 /* Headers */,
+				49923DE3521C3190F1388DF612C976A0 /* Sources */,
+				92A2DAB42134511367E8CFA9DEF4722E /* Frameworks */,
+				0683E4675485B28AAF3CC5889C0A12AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B347B1DD70F0B892C53D3FA460F33F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleCard_Example";
+			productName = "Pods-SimpleCard_Example";
+			productReference = E8666CF376E5D216699CA3B7A758F7A9 /* Pods_SimpleCard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		769A4CC36D0412B69D2ED9656F952AE6 /* SimpleCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD353B4683BC358A20E8E0ED4D4956A7 /* Build configuration list for PBXNativeTarget "SimpleCard" */;
+			buildPhases = (
+				7B6E3043B026D22DBE75631E016FB6EE /* Headers */,
+				798532DC447290EF10088E3020A5146F /* Sources */,
+				98C625DF4ABA9EFB9AEBEB9652445E91 /* Frameworks */,
+				074009BA7152192E57E11D70E7D41DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCard;
+			productName = SimpleCard;
+			productReference = 6AB3CEFBB9CE634B4AC7E770AD609FB7 /* SimpleCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95B65B0B1027B6967F2E287D14504414 /* Pods-SimpleCard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC5AC1BE884DC57DBA7479BB42C4C21 /* Build configuration list for PBXNativeTarget "Pods-SimpleCard_Tests" */;
+			buildPhases = (
+				CA737A850D757406F1DC9D40DB8B45B2 /* Headers */,
+				66DBADAF9BE3E831836BD99C478540C7 /* Sources */,
+				2F936EA086CC8D3D768591093CF1D5F4 /* Frameworks */,
+				04EE04C9686A89E0DC9FBD0D88129A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38D6AC4B5A1077AC8CB9A181CDD6769 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleCard_Tests";
+			productName = "Pods-SimpleCard_Tests";
+			productReference = 3790228DAA51547B54634C3AB3344D2B /* Pods_SimpleCard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FF57DAAF02D35C9EEE3D0C1C774600A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15ED9736CEA4013D4A884671881AB476 /* Pods-SimpleCard_Example */,
+				95B65B0B1027B6967F2E287D14504414 /* Pods-SimpleCard_Tests */,
+				769A4CC36D0412B69D2ED9656F952AE6 /* SimpleCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EE04C9686A89E0DC9FBD0D88129A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0683E4675485B28AAF3CC5889C0A12AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074009BA7152192E57E11D70E7D41DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49923DE3521C3190F1388DF612C976A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DAA9BC396F0E9CC0B8B103E0776DCE /* Pods-SimpleCard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DBADAF9BE3E831836BD99C478540C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7157DFFC9C90FC6A93AA58F86543A6 /* Pods-SimpleCard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798532DC447290EF10088E3020A5146F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE07C4DD75CD417C2070B1216E45B87 /* ReplaceMe.swift in Sources */,
+				88C78CD14B8188F3A6F387F6961603C2 /* SimpleCard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B347B1DD70F0B892C53D3FA460F33F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleCard;
+			target = 769A4CC36D0412B69D2ED9656F952AE6 /* SimpleCard */;
+			targetProxy = 03BDF138EE1304CCC5A20B3132012364 /* PBXContainerItemProxy */;
+		};
+		C38D6AC4B5A1077AC8CB9A181CDD6769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleCard_Example";
+			target = 15ED9736CEA4013D4A884671881AB476 /* Pods-SimpleCard_Example */;
+			targetProxy = 8AE3294F553CEB8DD5FA65483C32BD1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31E5D209A8AC53A46D37712C3D118686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561EDF58AD1CBC8E0416CBFF95AABF15 /* SimpleCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleCard/SimpleCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleCard/SimpleCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleCard/SimpleCard.modulemap";
+				PRODUCT_MODULE_NAME = SimpleCard;
+				PRODUCT_NAME = SimpleCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AFCAF255E916C2A0AB69F1FA9277330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6792C73F7E26677919B704F7A23BFAC7 /* Pods-SimpleCard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleCard_Example/Pods-SimpleCard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleCard_Example/Pods-SimpleCard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E164C5FAF450A37C80166258E721192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BDC896CD6E3D21B837BE4C61EC3BF31 /* Pods-SimpleCard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleCard_Tests/Pods-SimpleCard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleCard_Tests/Pods-SimpleCard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A77C79BF1A3231034DB386A27CB3B0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF14B396FAA712F9B8502AED01B32680 /* Pods-SimpleCard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleCard_Example/Pods-SimpleCard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleCard_Example/Pods-SimpleCard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C056BE96301B8CA148EDA59349E10219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561EDF58AD1CBC8E0416CBFF95AABF15 /* SimpleCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleCard/SimpleCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleCard/SimpleCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleCard/SimpleCard.modulemap";
+				PRODUCT_MODULE_NAME = SimpleCard;
+				PRODUCT_NAME = SimpleCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F43104D572898ACCE34E46F09FACA0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2674974FF33BCC79CD2016AA526C8A /* Pods-SimpleCard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleCard_Tests/Pods-SimpleCard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleCard_Tests/Pods-SimpleCard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A001AC05E2DF5F7C552E99EC2D41EF1 /* Build configuration list for PBXNativeTarget "Pods-SimpleCard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77C79BF1A3231034DB386A27CB3B0BE /* Debug */,
+				6AFCAF255E916C2A0AB69F1FA9277330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC5AC1BE884DC57DBA7479BB42C4C21 /* Build configuration list for PBXNativeTarget "Pods-SimpleCard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E164C5FAF450A37C80166258E721192 /* Debug */,
+				F43104D572898ACCE34E46F09FACA0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD353B4683BC358A20E8E0ED4D4956A7 /* Build configuration list for PBXNativeTarget "SimpleCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E5D209A8AC53A46D37712C3D118686 /* Debug */,
+				C056BE96301B8CA148EDA59349E10219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

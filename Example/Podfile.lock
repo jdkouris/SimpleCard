@@ -1,0 +1,16 @@
+PODS:
+  - SimpleCard (0.1.0)
+
+DEPENDENCIES:
+  - SimpleCard (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleCard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleCard: de26d4261785c052b9b50558dd803801067a3aac
+
+PODFILE CHECKSUM: aac3b03b950f8d9c516980ed7dfb7cd60f8f98ae
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,6 @@
+framework module Pods_SimpleCard_Example {
+  umbrella header "Pods-SimpleCard_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

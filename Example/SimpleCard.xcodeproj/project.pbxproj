@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		252BEA0DADA1E757C26BCD48 /* Pods-SimpleCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCard_Example.debug.xcconfig"; path = "Target Support Files/Pods-SimpleCard_Example/Pods-SimpleCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A86B548D38830859DDE967E /* Pods_SimpleCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DCD6CEFAAEC511D7DBDD8FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2DCD6CEFAAEC511D7DBDD8FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SimpleCard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		B8BE570CBB9569E8CFEB3DA3 /* Pods-SimpleCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCard_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleCard_Tests/Pods-SimpleCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D44F3002F810DF5F5A3EDCAD /* Pods-SimpleCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCard_Tests.release.xcconfig"; path = "Target Support Files/Pods-SimpleCard_Tests/Pods-SimpleCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DAE0A42DA2AC7471A0160490 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E5DF0664F43EFE3287E00CBE /* SimpleCard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleCard.podspec; path = ../SimpleCard.podspec; sourceTree = "<group>"; };
+		DAE0A42DA2AC7471A0160490 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E5DF0664F43EFE3287E00CBE /* SimpleCard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleCard.podspec; path = ../SimpleCard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EAF6EC4EAFD558E5FEE96C59 /* Pods-SimpleCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCard_Example.release.xcconfig"; path = "Target Support Files/Pods-SimpleCard_Example/Pods-SimpleCard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED812D1C79E1E647747C8E90 /* Pods_SimpleCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				B8BE570CBB9569E8CFEB3DA3 /* Pods-SimpleCard_Tests.debug.xcconfig */,
 				D44F3002F810DF5F5A3EDCAD /* Pods-SimpleCard_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
