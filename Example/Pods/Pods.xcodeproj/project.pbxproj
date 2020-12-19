@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		00C085CC3711DB710A2D59BF8EBD8958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		00F5C2D590A396E59C5A60F3C3F115F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5BE07C4DD75CD417C2070B1216E45B87 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFFC125CEAEED9E3D7FC25D0A4629D9 /* ReplaceMe.swift */; };
+		297BA371258E8620004278F0 /* SimpleCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297BA370258E8620004278F0 /* SimpleCardTableViewCell.swift */; };
 		88C78CD14B8188F3A6F387F6961603C2 /* SimpleCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 663ACD5C116784643B744B3146015516 /* SimpleCard-dummy.m */; };
 		96DAA9BC396F0E9CC0B8B103E0776DCE /* Pods-SimpleCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA52F29A8D6828FD31F31EA0C7F4F115 /* Pods-SimpleCard_Example-dummy.m */; };
 		9DCFA7CA87FF53E2AF281C588C0A4F4D /* SimpleCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88BA4513D02C0C6925C3E4CA60DAE21 /* SimpleCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,24 +38,24 @@
 
 /* Begin PBXFileReference section */
 		06AE2A46F7B33942BB755DEC779629CA /* SimpleCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleCard-Info.plist"; sourceTree = "<group>"; };
-		06E80C1E55AEDFB6F20316D5D6C29ADD /* SimpleCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimpleCard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06E80C1E55AEDFB6F20316D5D6C29ADD /* SimpleCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimpleCard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		10DC4A3D9979AB6AB715428F26EAF6B1 /* Pods-SimpleCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleCard_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1340A834848CF6B76A798C9CC9EAEABF /* Pods-SimpleCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17C1972118D23DE3D3878BD6BD84932F /* Pods-SimpleCard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCard_Example-Info.plist"; sourceTree = "<group>"; };
 		27687B7631FD6200AC8BC222F7AB2E75 /* Pods-SimpleCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCard_Tests-dummy.m"; sourceTree = "<group>"; };
+		297BA370258E8620004278F0 /* SimpleCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCardTableViewCell.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3790228DAA51547B54634C3AB3344D2B /* Pods_SimpleCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCard_Tests.framework; path = "Pods-SimpleCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3790228DAA51547B54634C3AB3344D2B /* Pods_SimpleCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		561EDF58AD1CBC8E0416CBFF95AABF15 /* SimpleCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCard.xcconfig; sourceTree = "<group>"; };
 		576B8805CB1CCACF304D0F0C66F94304 /* Pods-SimpleCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleCard_Tests.modulemap"; sourceTree = "<group>"; };
-		5EFFC125CEAEED9E3D7FC25D0A4629D9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleCard/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		663ACD5C116784643B744B3146015516 /* SimpleCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleCard-dummy.m"; sourceTree = "<group>"; };
 		6792C73F7E26677919B704F7A23BFAC7 /* Pods-SimpleCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6808E2A5283C73D094E1CE67C6AB6A39 /* Pods-SimpleCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6AB3CEFBB9CE634B4AC7E770AD609FB7 /* SimpleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleCard.framework; path = SimpleCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB3CEFBB9CE634B4AC7E770AD609FB7 /* SimpleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDC896CD6E3D21B837BE4C61EC3BF31 /* Pods-SimpleCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D2674974FF33BCC79CD2016AA526C8A /* Pods-SimpleCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1AAF6DF962B7DA058005EB4F2917139 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AAF6DF962B7DA058005EB4F2917139 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A250C7045CA21686746E21A67AB42884 /* Pods-SimpleCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A69283E799DA7F43DF7C6C923D4C3526 /* Pods-SimpleCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleCard_Example.modulemap"; sourceTree = "<group>"; };
 		A9288F07A64CE9E027CE9B1A83148598 /* Pods-SimpleCard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCard_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 		BF14B396FAA712F9B8502AED01B32680 /* Pods-SimpleCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C88BA4513D02C0C6925C3E4CA60DAE21 /* SimpleCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCard-umbrella.h"; sourceTree = "<group>"; };
 		CBC3398CC8B72E649CC948E4781B85A1 /* Pods-SimpleCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCard_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D6F9AF664ECBA8ECDCAEF816266CEC21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E8666CF376E5D216699CA3B7A758F7A9 /* Pods_SimpleCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCard_Example.framework; path = "Pods-SimpleCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F9AF664ECBA8ECDCAEF816266CEC21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E8666CF376E5D216699CA3B7A758F7A9 /* Pods_SimpleCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB41B939FAA9254379ED20D402E711DF /* SimpleCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleCard.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +106,14 @@
 				9F504A398A642BB98A981C3C8CBBCBF6 /* Pods-SimpleCard_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		297BA36F258E83B6004278F0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				297BA370258E8620004278F0 /* SimpleCardTableViewCell.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		5F57F751D7C66884C956AFA0CA602B0D /* Development Pods */ = {
@@ -159,7 +167,7 @@
 		A2C62001F297CE898525928B212779A2 /* SimpleCard */ = {
 			isa = PBXGroup;
 			children = (
-				5EFFC125CEAEED9E3D7FC25D0A4629D9 /* ReplaceMe.swift */,
+				297BA36F258E83B6004278F0 /* Source */,
 				6DFB53EF356E26CBB8E483E4E0FEEF87 /* Pod */,
 				7756557107845225B510D6EB6B8FCBDF /* Support Files */,
 			);
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					769A4CC36D0412B69D2ED9656F952AE6 = {
+						LastSwiftMigration = 1230;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -380,8 +393,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE07C4DD75CD417C2070B1216E45B87 /* ReplaceMe.swift in Sources */,
 				88C78CD14B8188F3A6F387F6961603C2 /* SimpleCard-dummy.m in Sources */,
+				297BA371258E8620004278F0 /* SimpleCardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 561EDF58AD1CBC8E0416CBFF95AABF15 /* SimpleCard.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,6 +441,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -521,8 +536,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -662,6 +676,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 561EDF58AD1CBC8E0416CBFF95AABF15 /* SimpleCard.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
